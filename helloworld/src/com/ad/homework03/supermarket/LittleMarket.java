@@ -1,4 +1,6 @@
-package com.ad.homework02.supermarket;
+package com.ad.homework03.supermarket;
+
+import com.ad.homework02.supermarket.Goods;
 
 import java.util.*;
 
@@ -21,7 +23,7 @@ public class LittleMarket {
 
     }
     //构造函数对超市进行初始化赋值
-    public  LittleMarket(String marketname,String address,int park_count)
+    public LittleMarket(String marketname, String address, int park_count)
     {
         this.address=address;
         this.park_count=park_count;
@@ -43,7 +45,7 @@ public class LittleMarket {
             m.name="商品"+i;
             m.count=200;
             m.purchase_price=r.nextInt(201);
-          //  m.sold_price=m.purchase_price*r.nextDouble(2);
+         //   m.sold_price=m.purchase_price*r.nextDouble(2);
             m.id="ID"+i;
             all[i]=m;
         }

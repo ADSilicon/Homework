@@ -16,7 +16,8 @@ public class Grande {
         double[] scores=new double[n];
         Random r = new Random();
         for (int i = 0; i < n; i++) {
-            scores[i]=r.nextInt(0,41)+60;
+           // scores[i]=r.nextInt(0,41)+60;
+
             if (scores[i]>max){
                 max=scores[i];
                 index=i;

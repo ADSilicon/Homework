@@ -30,7 +30,7 @@ public class AI_test {
             T1.describe();
 
             //有参构造配置顾客信息
-            Customer c = new Customer("顾客编号" + r.nextInt(11), r.nextDouble(10001), Math.random() > 0.5);
+          //  Customer c = new Customer("顾客编号" + r.nextInt(11), r.nextDouble(10001), Math.random() > 0.5);
 
 
 

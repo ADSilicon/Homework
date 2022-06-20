@@ -28,7 +28,7 @@ public class test01 {
             T1.describe();
 
             //todo 有参构造配置顾客信息
-            Customer c = new Customer("顾客编号"+ r.nextInt(11),r.nextDouble(10001),Math.random() > 0.5);
+            Customer c = new Customer("顾客编号"+ r.nextInt(11),r.nextInt(10),Math.random() > 0.5);
 
             //todo 判断是否开车与车位情况
             if(c.Driving(T1))
